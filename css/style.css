@@ -1,18 +1,11 @@
+/* Global Body */
 body{
     font-family: 'PT Sans', sans-serif;
     margin: auto;
     padding: 0px;
 }
-.bg-image{
-    /* width: 1600px; */
-    height: 600px;
-    flex-shrink: 0;
-    opacity: 0.8600000143051147;
-    background: #081621;
-    color: #081621;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
+/* Global body end */
+/* Navbar Style */
 .navbar{
     /* width: 1600px; */
     height: 80px;
@@ -46,3 +39,65 @@ body{
 .button-style{
     padding-right: 9px;
 }
+/* Navbar style ends */
+/* Background image */
+.bg-image{
+    width: auto;
+    height: 600px;
+    flex-shrink: 0;
+    opacity: 0.8600000143051147;
+    background: #081621;
+    color: #081621;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+/* Background image end */
+/* Banner part */
+section{
+    display: flex;
+}
+.banner-content{
+    margin-top: 200px;
+}
+.header-title-left{
+    align-self: stretch;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+    padding-left: 130px;
+}
+.header-paragraph{
+    align-self: stretch;
+    color: var(--white, #FFF);
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    padding-left: 130px;
+}
+.brand{
+    display: flex;
+    padding: 5px 30px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    background: var(--white, #FFF);
+    margin-left: 120px;
+    margin-top: 30px;;
+}
+.form-bg{
+    background-color: #FFF;
+    margin-top: 122px;
+    width: 373px;
+    height: 428px;
+    flex-shrink: 0;
+    background: var(--white, #FFF);
+
+/* E - Card */
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.14);
+}
+/* Banner part ends */
